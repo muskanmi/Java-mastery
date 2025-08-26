@@ -9,7 +9,8 @@ public class Main {
         int aGe = 30;
 
         int marks = 98;
-        int secondMarks = 87;
+        int secondMarks = 87; // camelCase
+        int second_allowed = 12;
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
