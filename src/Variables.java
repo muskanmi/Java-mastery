@@ -1,12 +1,17 @@
 public class Variables {
     public static void main(String[] args) {
         boolean isPassed = true;
-        int count = 12;
+//        int count = 12;
+//        long countLong = count;
+long count = 12;
+        int countInt = (int)count;
         byte marks = 13;
         short studentsCount = 1235;
         float pi = 3.14f;
 
         double secondPi = 3.14;
+
+        char myLetter = 'A';
 
         System.out.print(count);
         System.out.print(marks);
