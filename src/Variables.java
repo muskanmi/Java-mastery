@@ -3,6 +3,8 @@ public class Variables {
         boolean isPassed = true;
 //        int count = 12;
 //        long countLong = count;
+
+        // explicit type conversion
 long count = 12;
         int countInt = (int)count;
         byte marks = 13;
