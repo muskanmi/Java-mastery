@@ -4,7 +4,7 @@ public class Variables {
 //        int count = 12;
 //        long countLong = count;
 
-        // explicit type conversion
+        // explicit type conversion in other branch
 long count = 12;
         int countInt = (int)count;
         byte marks = 13;
