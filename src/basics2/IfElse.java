@@ -20,7 +20,8 @@ public class IfElse {
             System.out.println("Go to office");
         }
 
-        // you are given three numbers, find maximum numbers
+        // you are given three numbers, find maximum number
+        // you are given four numbers, find maximum number
 
         int a = 14;
         int b=8;
@@ -45,5 +46,12 @@ public class IfElse {
                 System.out.println("c is largest "+c);
             }
         }
+
+        int anum = 26;
+        int bnum = 23;
+        int cnum = 12;
+        int max = 0;
+        max = anum>bnum ? anum>cnum ? anum : cnum : bnum>cnum ? bnum : cnum;
+        System.out.println("The value of max is "+max);
     }
 }
