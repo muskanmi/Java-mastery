@@ -14,5 +14,7 @@ public class BasicsOfArray {
         System.out.println(age[0]);
         System.out.println(age[1]);
         System.out.println(age[2]);
+
+        System.out.println(age.length);
     }
 }
