@@ -12,5 +12,7 @@ public class BasicsOfArray {
         age[1] = 2;
 
         System.out.println(age[0]);
+        System.out.println(age[1]);
+        System.out.println(age[2]);
     }
 }
