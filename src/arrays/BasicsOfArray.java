@@ -17,5 +17,9 @@ public class BasicsOfArray {
 
         System.out.println(age.length);
         System.out.println(age2.length);
+
+        // directly initialized array
+        int marks[] = {98, 12, 45, 12, 65};
+        System.out.println(marks[0]);
     }
 }
