@@ -21,5 +21,15 @@ public class BasicsOfArray {
         // directly initialized array
         int marks[] = {98, 12, 45, 12, 65};
         System.out.println(marks[0]);
+        //exception
+//        System.out.println(marks[8]);
+
+//        for (int i = 0; i < marks.length; i++) {
+//            System.out.println(marks[i]);
+//        }
+
+        for (int mark: marks) { // for each loop for iterate of the array
+            System.out.println(mark);
+        }
     }
 }
