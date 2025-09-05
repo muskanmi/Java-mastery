@@ -10,7 +10,7 @@ public class LearnMath {
     }
 
     public static int getRandom(int a, int b) {
-//        return (int) (Math.random() * 6 )+ 1;
+//        return (int) (Math.random() * 6 )+ 1; number between 0 and 1
         return (int) (Math.random()*(b-a+1) + a);
     }
 }
