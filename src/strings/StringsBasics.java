@@ -8,5 +8,7 @@ public class StringsBasics {
         System.out.println(name);
 
         System.out.println(name == samename); // always give true because of same pointing reference
+
+        System.out.println(name == name2); // will give false because new object created a new memory in heap and are pointing to different
     }
 }
