@@ -28,5 +28,11 @@ public class LearnString {
         System.out.println(age+2);
         System.out.println(newAge + 2);
 
+        String sentence = "I love Java, Java is a good language";
+        String words[] = sentence.split(" ");
+        for(String word: words) {
+            System.out.println(word);
+        }
+
     }
 }
