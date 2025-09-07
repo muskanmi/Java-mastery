@@ -34,5 +34,12 @@ public class LearnString {
             System.out.println(word);
         }
 
+
+        String animal = "    ";
+        if(animal.isEmpty()){
+            System.out.println("Empty");
+        } else if(animal.isBlank()) {
+            System.out.println("Blank");
+        }
     }
 }
