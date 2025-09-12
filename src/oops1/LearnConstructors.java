@@ -6,7 +6,11 @@ public class LearnConstructors {
     public static void main(String[] args) {
 //        Complex c1 = new Complex();  default constructor
         Complex c1 = new Complex(4, 1);
+        Complex c2 = new Complex(2, 4);
         c1.print();
+        c2.print();
+        Complex res = c1.add(c2);
+        res.print();
     }
 }
 
@@ -29,7 +33,22 @@ class Complex {
         b = imag;
     }
 
+    // using this keyword using same name
+//    public Complex(int a, int b){
+//        this.a = a;
+//        this.b = b;
+//    }
+
+    public Complex(int real){
+        a = real;
+        b = 12;
+    }
+
     void print() {
         System.out.println(a + " + "+b+"i");
+    }
+
+    Complex add(Complex num2) {
+        return new Complex(a+num2.a, b+num2.b);
     }
 }
