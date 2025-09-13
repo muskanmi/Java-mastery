@@ -49,6 +49,7 @@ class Complex {
     }
 
     Complex add(Complex num2) {
+        // this.print();
         return new Complex(a+num2.a, b+num2.b);
     }
 }
