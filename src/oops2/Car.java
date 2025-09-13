@@ -18,6 +18,7 @@ public class Car extends Vehicle {
         Car obj = new Car();
         System.out.println(obj.wheelsCount); // 3;
         obj.wheelsCount = 4;
+        obj.model = "Lamberghini";
         obj.start(); // inheriting the vehicle class properties and behaviours.
         System.out.println(obj.wheelsCount); // 4
     }
