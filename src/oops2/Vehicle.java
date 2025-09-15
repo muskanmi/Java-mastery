@@ -14,6 +14,7 @@ public class Vehicle {
 
     String model;
 
+    // default constructor which always java calls automatically
     Vehicle(){
         System.out.println("Creating a vehicle instance");
     }
