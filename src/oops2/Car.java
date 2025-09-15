@@ -7,6 +7,7 @@ public class Car extends Vehicle {
         super.start(); // invoking immediate parent class function (in this case vehicle start method is calling
         System.out.println(this); // this keyword in inheritance
         System.out.println(this.wheelsCount + " Car is starting");
+        System.out.println(this.model + " Car");
     }
 
     Car() {
