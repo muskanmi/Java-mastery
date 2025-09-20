@@ -9,7 +9,7 @@ public class FinallyBlockInException {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Exception handled");
         } finally {
-            System.out.println("I will run always");
+            System.out.println("I will run always"); // always run this block no matter exception occurs or not
         }
     }
 }
