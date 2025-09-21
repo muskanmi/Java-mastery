@@ -6,7 +6,7 @@ public class GenericMethods {
         printData("Hello");
     }
 
-    static void printData(String data) {
+    static <E> void printData(E data) {
         System.out.println(data);
     }
 }
