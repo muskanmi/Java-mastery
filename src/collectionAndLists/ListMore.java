@@ -5,7 +5,7 @@ import java.util.*;
 public class ListMore {
     public static void main(String[] args) {
 
-        List<String> fruits = new ArrayList<>();
+        List<String> fruits = new ArrayList<>(); // different type of list we can use LinkedList<>() also
 
         fruits.add("Kiwi");
         fruits.add("Banana");
@@ -24,5 +24,8 @@ public class ListMore {
         while (fe.hasNext()) {
             System.out.println(fe.next());
         }
+
+        List<String> smallList = fruits.subList(1, 2);
+        System.out.println(smallList);
     }
 }
