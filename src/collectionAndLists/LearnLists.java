@@ -14,6 +14,13 @@ public class LearnLists {
         list2.add(1);
         list2.add(2);
 
+        System.out.println(list.get(0));
+        list.set(1, 200);
+
+        list.add(2, 1000);
+
+        System.out.println(list);
+
         System.out.println(list);
         System.out.println(list.size());
 
@@ -23,6 +30,11 @@ public class LearnLists {
 
         list.addAll(list2);
         System.out.println(list);
+
+        Object a[] = list.toArray();
+        for(Object e: a) {
+            System.out.println(e);
+        }
 
     }
 }
