@@ -7,7 +7,7 @@ public class ListMore {
 
         List<String> fruits = new ArrayList<>(); // different type of list we can use LinkedList<>() also
 
-        fruits.add("Kiwi");
+        fruits.add("Kiwi"); // fruits name for arraylist
         fruits.add("Banana");
         fruits.add("Mango");
         fruits.add("Apple");
