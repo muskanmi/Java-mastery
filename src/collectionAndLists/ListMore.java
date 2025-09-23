@@ -11,15 +11,17 @@ public class ListMore {
         fruits.add("Banana");
         fruits.add("Mango");
         fruits.add("Apple");
-
+ // first method for (using for loop only)
         for(int i=0; i<fruits.size(); i++){
             System.out.println(fruits.get(i));
         }
 
+        // second method by using for each loop
         for(String fruit : fruits) {
             System.out.println(fruit);
         }
 
+        // third method by using iterator or either we can use listiterator also
         Iterator<String> fe = fruits.iterator();
         while (fe.hasNext()) {
             System.out.println(fe.next());
