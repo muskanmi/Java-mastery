@@ -14,6 +14,10 @@ public class LearnQueue {
 
         System.out.println(q);
 
+//        while(!q.isEmpty()) {
+//            System.out.println(q.poll());
+//        }
+
         System.out.println(q.poll()); // first in first out
         System.out.println(q);
         System.out.println(q.peek()); // just tell which needs to remove next
