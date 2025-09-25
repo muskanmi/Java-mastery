@@ -13,5 +13,8 @@ public class LearnMap {
         map.put("in", "India");
 
         System.out.println(map);
+
+        map.remove("us");
+        System.out.println(map);
     }
 }
