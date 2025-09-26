@@ -18,6 +18,6 @@ public class LearnMap {
         map.remove("us");
         System.out.println(map);
 
-        System.out.println(map.containsKey("in"));
+        System.out.println(map.containsKey("in")); // will print if key exist
     }
 }
