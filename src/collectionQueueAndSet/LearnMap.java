@@ -15,7 +15,7 @@ public class LearnMap {
 
         System.out.println(map); // print map with key value
 
-        map.remove("us");
+        map.remove("us"); // will remove the key from map
         System.out.println(map);
 
         System.out.println(map.containsKey("in")); // will print if key exist
