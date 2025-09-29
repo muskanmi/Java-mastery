@@ -22,6 +22,13 @@ public class LearnMap {
         Collection<String> values = map.values();
         System.out.println(values);
 
+        Set<Map.Entry<String, String>> entries = map.entrySet();
+        System.out.println(entries);
+
+        for(Map.Entry<String, String> entry: entries) {
+            System.out.println(entry.getKey() + ", " + entry.getValue());
+        }
+
 //        System.out.println(map); // print map with key value
 //
 //        map.remove("us"); // will remove the key from map
