@@ -20,5 +20,7 @@ public class LearnMap {
         System.out.println(map); // will print map only in india2
 
         System.out.println(map.containsKey("in")); // will print if key exist
+        System.out.println(map.get("in"));
+        System.out.println(map.getOrDefault("en", "Others"));
     }
 }
