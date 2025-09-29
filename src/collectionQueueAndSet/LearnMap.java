@@ -1,5 +1,6 @@
 package collectionQueueAndSet;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -17,6 +18,9 @@ public class LearnMap {
 
         Set<String> keys = map.keySet();
         System.out.println(keys);
+
+        Collection<String> values = map.values();
+        System.out.println(values);
 
 //        System.out.println(map); // print map with key value
 //
