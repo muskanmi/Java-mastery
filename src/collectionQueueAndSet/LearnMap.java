@@ -2,6 +2,7 @@ package collectionQueueAndSet;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class LearnMap {
     public static void main(String[] args) {
@@ -14,13 +15,16 @@ public class LearnMap {
         map.put("in", "India2"); // key in value will replace from India2
         map.putIfAbsent("us", "United States");
 
-        System.out.println(map); // print map with key value
+        Set<String> keys = map.keySet();
+        System.out.println(keys);
 
-        map.remove("us"); // will remove the key from map
-        System.out.println(map); // will print map only in india2
-
-        System.out.println(map.containsKey("in")); // will print if key exist
-        System.out.println(map.get("in"));
-        System.out.println(map.getOrDefault("en", "Others"));
+//        System.out.println(map); // print map with key value
+//
+//        map.remove("us"); // will remove the key from map
+//        System.out.println(map); // will print map only in india2
+//
+//        System.out.println(map.containsKey("in")); // will print if key exist
+//        System.out.println(map.get("in"));
+//        System.out.println(map.getOrDefault("en", "Others"));
     }
 }
