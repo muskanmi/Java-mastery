@@ -12,6 +12,7 @@ public class LearnMap {
         map.put("in", "India");
         map.put("in", "India");
         map.put("in", "India2"); // key in value will replace from India2
+        map.putIfAbsent("us", "United States");
 
         System.out.println(map); // print map with key value
 
