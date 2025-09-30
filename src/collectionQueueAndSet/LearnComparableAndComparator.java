@@ -2,6 +2,7 @@ package collectionQueueAndSet;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class LearnComparableAndComparator {
@@ -21,6 +22,12 @@ public class LearnComparableAndComparator {
         System.out.println(dogs);
 
         Collections.sort(dogs);
+        System.out.println(dogs);
+
+        Collections.sort(dogs, (o1, o2) -> o1.name.compareTo(o2.name)); // will sort according to name sorting
+        System.out.println(dogs);
+
+        Collections.sort(dogs, Comparator.comparing(Animal::getAge));
         System.out.println(dogs);
     }
 }

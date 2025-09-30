@@ -27,4 +27,8 @@ public class Animal implements Comparable<Animal> {
     public int compareTo(Animal o) {
         return this.age - o.age;
     }
+
+    public int getAge() {
+        return age;
+    }
 }
