@@ -27,7 +27,7 @@ public class LearnComparableAndComparator {
         Collections.sort(dogs, (o1, o2) -> o1.name.compareTo(o2.name)); // will sort according to name sorting
         System.out.println(dogs);
 
-        Collections.sort(dogs, Comparator.comparing(Animal::getAge));
+        Collections.sort(dogs, Comparator.comparing(Animal::getAge)); // will sort according to age order
         System.out.println(dogs);
     }
 }
