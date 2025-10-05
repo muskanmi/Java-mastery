@@ -1,9 +1,6 @@
 package collectionQueueAndSet;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class LearnComparableAndComparator {
     public static void main(String[] args) {
@@ -29,5 +26,22 @@ public class LearnComparableAndComparator {
 
         Collections.sort(dogs, Comparator.comparing(Animal::getAge)); // will sort according to age order
         System.out.println(dogs);
+
+        int a[][] = {
+                {4, 5, 2},
+                {5, 1, 2},
+                {1, 4, 7},
+        };
+
+        Arrays.sort(a, (arr1, arr2) -> {
+            return arr1[0] - arr2[0];
+        });
+
+        for(int e[]: a) {
+            for(int element: e) {
+                System.out.print(element + " ");
+            }
+            System.out.println();
+        }
     }
 }

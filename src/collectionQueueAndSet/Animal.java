@@ -1,5 +1,6 @@
 package collectionQueueAndSet;
 
+
 public class Animal implements Comparable<Animal> {
 
     int age;
