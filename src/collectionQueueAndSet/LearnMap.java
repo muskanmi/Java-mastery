@@ -29,6 +29,10 @@ public class LearnMap {
             System.out.println(entry.getKey() + ", " + entry.getValue());
         }
 
+        for(String key: keys) {
+            System.out.println("key " + key);
+        }
+
 //        System.out.println(map); // print map with key value
 //
 //        map.remove("us"); // will remove the key from map
