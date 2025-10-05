@@ -31,4 +31,12 @@ public class Animal implements Comparable<Animal> {
     public int getAge() {
         return age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
 }
