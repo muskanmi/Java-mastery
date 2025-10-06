@@ -41,7 +41,7 @@ public class LearnComparableAndComparator {
             for(int element: e) {
                 System.out.print(element + " ");
             }
-            System.out.println();
+            System.out.println(); // already covered in previous video
         }
     }
 }
