@@ -35,7 +35,7 @@ public class Animal implements Comparable<Animal> {
 
     public String getName() {
         return name;
-    }
+    } // getter method of name
 
     public int getWeight() {
         return weight;
