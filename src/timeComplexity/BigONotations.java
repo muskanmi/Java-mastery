@@ -9,7 +9,7 @@ public class BigONotations {
         printAllPairsInArray(a);
     }
 
-    // will run in O(1) no matter how much length of array
+    // will run in O(1) no matter how much length of array   (Time complexity)
     static int getFirstNumber(int a[]) {
         return a[0];
     }
