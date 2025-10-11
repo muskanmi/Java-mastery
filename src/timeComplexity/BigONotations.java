@@ -14,7 +14,7 @@ public class BigONotations {
         return a[0];
     }
 
-    // in worst time complexity it will run O(n) best case O(1)
+    // in worst time complexity it will run O(n) best case O(1)  (Time Complexity)
     static boolean checkIfNumberIsPresent(int a[], int key) {
         for(int element: a){
             if(element == key) return true;
