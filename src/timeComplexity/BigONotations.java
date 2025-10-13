@@ -6,7 +6,7 @@ public class BigONotations {
         int key = 3; // this will return in O(1) best case
 //        int key = 10; O(n) n is array length (worst case if key is not found)
 
-        printAllPairsInArray(a);
+        printAllPairsInArray(a); // calling the function
     }
 
     // will run in O(1) no matter how much length of array   (Time complexity)
