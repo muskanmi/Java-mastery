@@ -10,7 +10,7 @@ public class BigONotations {
     }
 
     // will run in O(1) no matter how much length of array   (Time complexity)
-    static int getFirstNumber(int a[]) {
+    static int getFirstNumber(int a[]) { // getter array element function
         return a[0];
     }
 
