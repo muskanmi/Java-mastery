@@ -2,7 +2,7 @@ package timeComplexity;
 
 public class BigONotations {
     public static void main(String[] args) {
-        int a[] = {3, 7, 1, 7, 23, 5};
+        int a[] = {3, 7, 1, 7, 23, 5}; // array define
         int key = 3; // this will return in O(1) best case
 //        int key = 10; O(n) n is array length (worst case if key is not found)
 
